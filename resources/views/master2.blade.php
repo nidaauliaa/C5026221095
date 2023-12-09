@@ -29,9 +29,11 @@
               DATABASE
             </a>
             <div class="dropdown-menu">
-              <a class="dropdown-item" href="#">Pegawai</a>
+              <a class="dropdown-item" href="/pegawai">Pegawai</a>
               <a class="dropdown-item" href="#">Link 2</a>
-              <a class="dropdown-item" href="#">Link 3</a>
+              <a class="dropdown-item" href="/keranjangbelanja">Keranjang Belanja</a>
+              <a class="dropdown-item" href="/sandal">Sandal</a>
+              <a class="dropdown-item" href="/nilai">Nilai</a>
             </div>
           </li>
         </ul>

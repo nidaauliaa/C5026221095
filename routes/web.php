@@ -88,3 +88,27 @@ Route::post('/pegawai/update','App\Http\Controllers\PegawaiController@update');
 Route::get('/pegawai/hapus/{id}','App\Http\Controllers\PegawaiController@hapus');
 Route::get('/pegawai/cari','App\Http\Controllers\PegawaiController@cari');
 Route::get('/pegawai/view/{id}','App\Http\Controllers\PegawaiController@view');
+
+//keranjangbelanja | tugas cwe2 dikelas
+Route::get('/keranjangbelanja','App\Http\Controllers\KeranjangController@index2');
+Route::get('/keranjangbelanja/tambah2','App\Http\Controllers\KeranjangController@tambah2');
+Route::get('/keranjangbelanja/hapus2/{id}','App\Http\Controllers\KeranjangController@hapus2');
+Route::post('/keranjangbelanja/store2','App\Http\Controllers\KeranjangController@store2');
+
+//sandal | tugas dikumpul senin
+Route::get('/sandal','App\Http\Controllers\SandalController@indexsandal');
+Route::get('/sandal/tambahsandal','App\Http\Controllers\SandalController@tambahsandal');
+Route::get('/sandal/hapus/{id}','App\Http\Controllers\SandalController@hapus');
+Route::post('/sandal/store','App\Http\Controllers\SandalController@store');
+Route::get('/sandal/lihatsandal/{id}','App\Http\Controllers\SandalController@lihatsandal');
+Route::get('/sandal/editsandal/{id}','App\Http\Controllers\SandalController@editsandal');
+Route::post('/sandal/update','App\Http\Controllers\SandalController@update');
+Route::get('/sandal/cari','App\Http\Controllers\SandalController@cari');
+
+//nilai | tugas cwo2 dikelas
+Route::get('/nilai','App\Http\Controllers\NilaiController@indexnilai');
+Route::get('/nilai/tambahnilai','App\Http\Controllers\NilaiController@tambahnilai');
+Route::post('/nilai/store2','App\Http\Controllers\NilaiController@store2');
+
+
+
