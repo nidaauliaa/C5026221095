@@ -2,7 +2,7 @@
 @section('judulhalaman','Data Kapas')
 
 @section('konten')
-	<h2>www.malasngoding.com</h2>
+	<h4>latihan mandiri</h4>
 	<h3>Data Kapas</h3>
 
 	<a href="/kapas/tambahkapas" class="btn btn-primary"> + Tambah Kapas Baru</a>

@@ -2,6 +2,7 @@
 @section('judulhalaman','Data Karyawan')
 
 @section('konten')
+    <h4>latihan mandiri</h4>
 	<h3>Data Karyawan</h3>
 
 	<a href="/karyawan/tambahkaryawan" class="btn btn-primary"> + Tambah Karyawan Baru</a>
