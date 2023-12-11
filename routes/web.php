@@ -135,6 +135,10 @@ Route::post('/kapas/update','App\Http\Controllers\KapasController@update');
 Route::get('/kapas/hapus/{id}','App\Http\Controllers\KapasController@hapus');
 Route::get('/kapas/cari','App\Http\Controllers\KapasController@cari');
 
+//uas
+Route::get('/chat','App\Http\Controllers\ChatController@indexchat');
+
+
 
 
 

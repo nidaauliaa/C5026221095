@@ -37,6 +37,7 @@
               <a class="dropdown-item" href="/karyawan">Karyawan</a>
               <a class="dropdown-item" href="/counter">Counter</a>
               <a class="dropdown-item" href="/kapas">Kapas</a>
+              <a class="dropdown-item" href="/chat">CHAT - UAS</a>
             </div>
           </li>
         </ul>
