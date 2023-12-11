@@ -34,6 +34,9 @@
               <a class="dropdown-item" href="/keranjangbelanja">Keranjang Belanja</a>
               <a class="dropdown-item" href="/sandal">Sandal</a>
               <a class="dropdown-item" href="/nilai">Nilai</a>
+              <a class="dropdown-item" href="/karyawan">Karyawan</a>
+              <a class="dropdown-item" href="/counter">Counter</a>
+              <a class="dropdown-item" href="/kapas">Kapas</a>
             </div>
           </li>
         </ul>

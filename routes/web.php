@@ -110,5 +110,38 @@ Route::get('/nilai','App\Http\Controllers\NilaiController@indexnilai');
 Route::get('/nilai/tambahnilai','App\Http\Controllers\NilaiController@tambahnilai');
 Route::post('/nilai/store2','App\Http\Controllers\NilaiController@store2');
 
+//belajar tabel karyawan
+Route::get('/karyawan','App\Http\Controllers\KaryawanController@indexkaryawan');
+Route::get('/karyawan/tambahkaryawan','App\Http\Controllers\KaryawanController@tambahkaryawan');
+Route::post('/karyawan/store','App\Http\Controllers\KaryawanController@store');
+Route::get('/karyawan/lihatkaryawan/{id}','App\Http\Controllers\KaryawanController@lihatkaryawan');
+Route::get('/karyawan/editkaryawan/{id}','App\Http\Controllers\KaryawanController@editkaryawan');
+Route::post('/karyawan/update','App\Http\Controllers\KaryawanController@update');
+Route::get('/karyawan/hapus/{id}','App\Http\Controllers\KaryawanController@hapus');
+Route::get('/karyawan/cari','App\Http\Controllers\KaryawanController@cari');
+
+//belajar tabel counter
+Route::get('/counter','App\Http\Controllers\CounterController@indexcounter');
+Route::get('/counter/lihatcounter/{id}','App\Http\Controllers\CounterController@lihatcounter');
+Route::post('/counter/store','App\Http\Controllers\CounterController@store');
+
+//belajar tabel kapas
+Route::get('/kapas','App\Http\Controllers\KapasController@indexkapas');
+Route::get('/kapas/tambahkapas','App\Http\Controllers\KapasController@tambahkapas');
+Route::post('/kapas/store','App\Http\Controllers\KapasController@store');
+Route::get('/kapas/lihatkapas/{id}','App\Http\Controllers\KapasController@lihatkapas');
+Route::get('/kapas/editkapas/{id}','App\Http\Controllers\KapasController@editkapas');
+Route::post('/kapas/update','App\Http\Controllers\KapasController@update');
+Route::get('/kapas/hapus/{id}','App\Http\Controllers\KapasController@hapus');
+Route::get('/kapas/cari','App\Http\Controllers\KapasController@cari');
+
+
+
+
+
+
+
+
+
 
 
